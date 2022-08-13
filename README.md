@@ -10,3 +10,7 @@ The algorithm works as follows. :
 5.	Now chain is reversed, because the verification should happen from the last.
 6.	Each certificate is checked and verified, if it is, it gets added to the store variable and we return “True”
 7.	Otherwise, we return “False”
+
+# circuit-list
+A list of all Tor circuits my machine currently uses, as specified by the list of three Tor relays.
+Output looks like “entry node–middle node–exit node.”
